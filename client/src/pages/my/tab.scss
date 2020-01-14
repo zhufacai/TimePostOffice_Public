@@ -1,0 +1,16 @@
+.at-tabs{
+    position: relative;
+    height: 100vh;
+    overflow-y: scroll;
+
+    .at-tabs__header{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+    }
+
+    .at-card__content-note{
+        font-size: 26px;
+    }
+}

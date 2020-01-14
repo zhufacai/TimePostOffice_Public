@@ -1,0 +1,52 @@
+.wrapper{
+    height: 100vh;
+    padding: 540px 50px 0;
+    box-sizing: border-box;
+
+    .banner{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .header{
+        font-size: 40px;
+
+        .ch{
+            font-weight: bold;
+        }
+
+        .en{
+            margin-left: 18px;
+        }
+    }
+
+    .content{
+        font-size: 28px;
+        margin-top: 30px;
+        line-height: 42px;
+
+        .content_head{
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .content_paragraph{
+            text-indent: 50px;
+        }
+    }
+
+    .btn{
+        margin: 50px auto;
+        background: #FFA500;
+        text-align: center;
+        font-size: 30px;
+        line-height: 60px;
+        height: 60px;
+        border-radius: 30px;
+        color: white;
+        // box-shadow: #cccccc 0px 2px 5px;
+    }
+}
